@@ -17,11 +17,11 @@
   <parent>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client-parent</artifactId>
-    <version>1.44.2-dev.0001</version><!-- {x-version-update:google-http-client-parent:current} -->
+    <version>1.47.1-dev.0001</version><!-- {x-version-update:google-http-client-parent:current} -->
     <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>google-http-client</artifactId>
-  <version>1.44.2-dev.0001</version><!-- {x-version-update:google-http-client:current} -->
+  <version>1.47.1-dev.0001</version><!-- {x-version-update:google-http-client:current} -->
   <name>Fork of com.google.http-client:google-http-client for Cryptomator for Android</name>
   <description>
     Unofficial, unaffiliated and unassociated fork of https://github.com/googleapis/google-http-java-client for internal use in Cryptomator for Android.
@@ -92,7 +92,7 @@
       <plugin>   
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
-        <version>5.1.8</version>
+        <version>5.1.9</version>
         <executions>
           <execution>
             <id>bundle-manifest</id>

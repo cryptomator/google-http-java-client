@@ -4,14 +4,30 @@
   <parent>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client-parent</artifactId>
-    <version>1.44.1</version><!-- {x-version-update:google-http-client-parent:current} -->
+    <version>1.47.1</version><!-- {x-version-update:google-http-client-parent:current} -->
     <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>google-http-client-appengine</artifactId>
-  <version>1.44.1</version><!-- {x-version-update:google-http-client-appengine:current} -->
+  <version>1.47.1</version><!-- {x-version-update:google-http-client-appengine:current} -->
   <name>Google App Engine extensions to the Google HTTP Client Library for Java.</name>
 
   <build>
+    <pluginManagement>
+      <plugins>
+        <!--App Engine uses Java 7 and above-->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <configuration>
+            <signature>
+              <groupId>org.codehaus.mojo.signature</groupId>
+              <artifactId>java17</artifactId>
+              <version>1.0</version>
+            </signature>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
     <plugins>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -26,18 +42,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-source-plugin</artifactId>
-      </plugin>
-      <!--App Engine uses Java 7 and above-->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>animal-sniffer-maven-plugin</artifactId>
-        <configuration>
-          <signature>
-            <groupId>org.codehaus.mojo.signature</groupId>
-            <artifactId>java17</artifactId>
-            <version>1.0</version>
-          </signature>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -90,4 +94,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+    <profile>
+      <id>native-deps</id>
+      <dependencies>
+        <dependency>
+          <groupId>com.google.appengine</groupId>
+          <artifactId>appengine-api-1.0-sdk</artifactId>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
 </project>

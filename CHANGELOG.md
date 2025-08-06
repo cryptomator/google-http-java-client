@@ -1,5 +1,147 @@
 # Changelog
 
+## [1.47.1](https://github.com/googleapis/google-http-java-client/compare/v1.47.0...v1.47.1) (2025-06-23)
+
+
+### Bug Fixes
+
+* Add special handling for `Object` in `Types.newInstance()` ([#2102](https://github.com/googleapis/google-http-java-client/issues/2102)) ([a855eca](https://github.com/googleapis/google-http-java-client/commit/a855eca50201d99aee25f4d68c240d06140fe7c6))
+
+## [1.47.0](https://github.com/googleapis/google-http-java-client/compare/v1.46.3...v1.47.0) (2025-04-28)
+
+
+### Features
+
+* Next release from main branch is 1.47.0 ([#2087](https://github.com/googleapis/google-http-java-client/issues/2087)) ([f89cc4c](https://github.com/googleapis/google-http-java-client/commit/f89cc4c485c0acf0f22f5efe9706c404f997961d))
+
+
+### Bug Fixes
+
+* Encode + sign in url with %2B ([#2094](https://github.com/googleapis/google-http-java-client/issues/2094)) ([1f8aca7](https://github.com/googleapis/google-http-java-client/commit/1f8aca768250f46490e3d3e47903693d3a8e30b8))
+
+
+### Dependencies
+
+* Update github/codeql-action action to v3.28.16 ([#2057](https://github.com/googleapis/google-http-java-client/issues/2057)) ([4fc3e3a](https://github.com/googleapis/google-http-java-client/commit/4fc3e3a70cd9d0f1ebe5c498920844d3fc020316))
+
+## [1.46.3](https://github.com/googleapis/google-http-java-client/compare/v1.46.2...v1.46.3) (2025-02-25)
+
+
+### Dependencies
+
+* Update native-image-shared-config to 1.14.4 ([1ab8c28](https://github.com/googleapis/google-http-java-client/commit/1ab8c28d3b629c58523581c15f86fb7054364dcb))
+
+## [1.46.2](https://github.com/googleapis/google-http-java-client/compare/v1.46.1...v1.46.2) (2025-02-24)
+
+
+### Dependencies
+
+* Update grpc-context-io to 1.70.0 ([#2078](https://github.com/googleapis/google-http-java-client/issues/2078)) ([3a82a5f](https://github.com/googleapis/google-http-java-client/commit/3a82a5f7d01860782dc5724cc4089ca94f71509d))
+
+## [1.46.1](https://github.com/googleapis/google-http-java-client/compare/v1.46.0...v1.46.1) (2025-02-07)
+
+
+### Bug Fixes
+
+* Remove unnecessary nexus plugin activation ([#2071](https://github.com/googleapis/google-http-java-client/issues/2071)) ([e3a3523](https://github.com/googleapis/google-http-java-client/commit/e3a3523eebc169ec87353ed94c12419e4dfa8b28))
+
+
+### Dependencies
+
+* Revert dependency io.grpc:grpc-context back to v1.69.0 ([5790ac4](https://github.com/googleapis/google-http-java-client/commit/5790ac4d27ebf2aa75155a4dcc24e7f74ca7b588))
+
+## [1.46.0](https://github.com/googleapis/google-http-java-client/compare/v1.45.3...v1.46.0) (2025-02-06)
+
+
+### Features
+
+* Support JDK 23 ([#2064](https://github.com/googleapis/google-http-java-client/issues/2064)) ([b6a3616](https://github.com/googleapis/google-http-java-client/commit/b6a3616a16c9ac565610e630bb9ad73589829334))
+* Update and adapt to GraalVM for JDK 23 ([#2069](https://github.com/googleapis/google-http-java-client/issues/2069)) ([7a0fab3](https://github.com/googleapis/google-http-java-client/commit/7a0fab3efd2104144dff752da334f8fa8a82951d))
+
+
+### Dependencies
+
+* Update actions/upload-artifact action to v4.6.0 ([#2056](https://github.com/googleapis/google-http-java-client/issues/2056)) ([1e70d04](https://github.com/googleapis/google-http-java-client/commit/1e70d04948d9bc141647df3fea61d2ee1e70f7d1))
+* Update dependency io.grpc:grpc-context to v1.70.0 ([#2068](https://github.com/googleapis/google-http-java-client/issues/2068)) ([7a580bf](https://github.com/googleapis/google-http-java-client/commit/7a580bf568bd2a5bc0519880f4a213f6c47c9849))
+* Update project.appengine.version to v2.0.32 ([#2065](https://github.com/googleapis/google-http-java-client/issues/2065)) ([2285bb1](https://github.com/googleapis/google-http-java-client/commit/2285bb1c48edd6c07a7ded557fe58d57e570f1b3))
+
+## [1.45.3](https://github.com/googleapis/google-http-java-client/compare/v1.45.2...v1.45.3) (2024-12-11)
+
+
+### Dependencies
+
+* Update dependency io.grpc:grpc-context to v1.69.0 ([#2050](https://github.com/googleapis/google-http-java-client/issues/2050)) ([9f4f6ab](https://github.com/googleapis/google-http-java-client/commit/9f4f6ab5e2729bebe8416a40d092172e7ba3313a))
+* Update github/codeql-action action to v3.27.7 ([#2049](https://github.com/googleapis/google-http-java-client/issues/2049)) ([9190382](https://github.com/googleapis/google-http-java-client/commit/91903825dd1af1ea1f39a96107d9518610212278))
+
+## [1.45.2](https://github.com/googleapis/google-http-java-client/compare/v1.45.1...v1.45.2) (2024-12-05)
+
+
+### Bug Fixes
+
+* NPE if response entity is null ([#2043](https://github.com/googleapis/google-http-java-client/issues/2043)) ([12c742b](https://github.com/googleapis/google-http-java-client/commit/12c742b1f7536fd1fd408a74071007b15480b149))
+
+
+### Dependencies
+
+* Update actions/checkout action to v4.2.2 ([#2034](https://github.com/googleapis/google-http-java-client/issues/2034)) ([024fd71](https://github.com/googleapis/google-http-java-client/commit/024fd718793d20f9439d538b9c342daeb84b89bc))
+* Update actions/upload-artifact action to v4.4.3 ([#2035](https://github.com/googleapis/google-http-java-client/issues/2035)) ([443157c](https://github.com/googleapis/google-http-java-client/commit/443157c5ff20fdddaf40193e005f43b7bc6a6f54))
+* Update dependency com.fasterxml.jackson.core:jackson-core to v2.18.2 ([#2036](https://github.com/googleapis/google-http-java-client/issues/2036)) ([5d24785](https://github.com/googleapis/google-http-java-client/commit/5d247854d65075c9e0f8e9076c210f0e93742c46))
+* Update dependency com.google.errorprone:error_prone_annotations to v2.36.0 ([#2037](https://github.com/googleapis/google-http-java-client/issues/2037)) ([cc6eb61](https://github.com/googleapis/google-http-java-client/commit/cc6eb61a9f7ae550951ee7b5c8a383d755e76959))
+* Update dependency io.grpc:grpc-context to v1.68.2 ([#2038](https://github.com/googleapis/google-http-java-client/issues/2038)) ([9fba799](https://github.com/googleapis/google-http-java-client/commit/9fba799ac04c7870f3ee5c425ccb0a51dc7e0d16))
+* Update dependency ubuntu to v24 ([#2041](https://github.com/googleapis/google-http-java-client/issues/2041)) ([ac83eb2](https://github.com/googleapis/google-http-java-client/commit/ac83eb259331de683806787c172514592d27de01))
+* Update github/codeql-action action to v3.27.6 ([#2003](https://github.com/googleapis/google-http-java-client/issues/2003)) ([dc8e46a](https://github.com/googleapis/google-http-java-client/commit/dc8e46a6b6308985380e312fad82b7c182dd9e6f))
+* Update project.appengine.version to v2.0.31 ([#2027](https://github.com/googleapis/google-http-java-client/issues/2027)) ([8bb79e5](https://github.com/googleapis/google-http-java-client/commit/8bb79e5448e0fa2767b029e7101e3d5d5112eaf2))
+
+## [1.45.1](https://github.com/googleapis/google-http-java-client/compare/v1.45.0...v1.45.1) (2024-11-12)
+
+
+### Bug Fixes
+
+* Add google-http-client-apache-v5 to bom ([#2021](https://github.com/googleapis/google-http-java-client/issues/2021)) ([4830ad7](https://github.com/googleapis/google-http-java-client/commit/4830ad788a62fe9cd4f64873b771e6ef8ef92193))
+
+## [1.45.0](https://github.com/googleapis/google-http-java-client/compare/v1.44.2...v1.45.0) (2024-08-21)
+
+
+### Features
+
+* Introduce google-http-client-apache-v5 (Apache Client/Core 5.x) ([#1960](https://github.com/googleapis/google-http-java-client/issues/1960)) ([5d527dc](https://github.com/googleapis/google-http-java-client/commit/5d527dc3afade0834a82e5280f22e0129b5f1297))
+* Next release from main is 1.45.0 ([#1972](https://github.com/googleapis/google-http-java-client/issues/1972)) ([094dcc8](https://github.com/googleapis/google-http-java-client/commit/094dcc87f22d16686242ce6cb06151b2a199ec2a))
+
+
+### Dependencies
+
+* Update actions/checkout action to v4 ([#1993](https://github.com/googleapis/google-http-java-client/issues/1993)) ([f8b0cc1](https://github.com/googleapis/google-http-java-client/commit/f8b0cc1c908b4ebdf3c30a9f9a9b50c96d33f781))
+* Update actions/github-script action to v7 ([#1994](https://github.com/googleapis/google-http-java-client/issues/1994)) ([e527f0d](https://github.com/googleapis/google-http-java-client/commit/e527f0d9624e47c37a551590cf555f6207751fe9))
+* Update actions/setup-java action to v4 ([#1995](https://github.com/googleapis/google-http-java-client/issues/1995)) ([07aa01c](https://github.com/googleapis/google-http-java-client/commit/07aa01c2f86dc35fd6d1f968cbf111315ef26aa5))
+* Update actions/upload-artifact action to v4 ([#1996](https://github.com/googleapis/google-http-java-client/issues/1996)) ([5ba7021](https://github.com/googleapis/google-http-java-client/commit/5ba70218d8bdae18094b1031f9c800688aa58fb4))
+* Update dependency com.fasterxml.jackson.core:jackson-core to v2.17.2 ([#1987](https://github.com/googleapis/google-http-java-client/issues/1987)) ([4202d32](https://github.com/googleapis/google-http-java-client/commit/4202d328ea2cefff0771036b010fbfd80928f88c))
+* Update dependency com.google.cloud:native-image-shared-config to v1.7.7 ([#1937](https://github.com/googleapis/google-http-java-client/issues/1937)) ([b224a1d](https://github.com/googleapis/google-http-java-client/commit/b224a1d64cae44878f1bb0af83fb8e33e2e12d63))
+* Update dependency com.google.cloud:native-image-shared-config to v1.9.0 ([#1961](https://github.com/googleapis/google-http-java-client/issues/1961)) ([792e44f](https://github.com/googleapis/google-http-java-client/commit/792e44f6a2b7678fef30c3bdfc0955be533a7613))
+* Update dependency com.google.code.gson:gson to v2.11.0 ([#1988](https://github.com/googleapis/google-http-java-client/issues/1988)) ([63afd35](https://github.com/googleapis/google-http-java-client/commit/63afd35f0a3c15f5a66f5b6a06bae01f82b54504))
+* Update dependency com.google.errorprone:error_prone_annotations to v2.30.0 ([#1989](https://github.com/googleapis/google-http-java-client/issues/1989)) ([6e19c5c](https://github.com/googleapis/google-http-java-client/commit/6e19c5ca66c67dad53272998535ed197559dfe02))
+* Update dependency com.google.j2objc:j2objc-annotations to v3 ([#1998](https://github.com/googleapis/google-http-java-client/issues/1998)) ([3d70537](https://github.com/googleapis/google-http-java-client/commit/3d7053747076e599f819c41f8362f6070a96ce8a))
+* Update dependency io.grpc:grpc-context to v1.66.0 ([#1990](https://github.com/googleapis/google-http-java-client/issues/1990)) ([66a9f15](https://github.com/googleapis/google-http-java-client/commit/66a9f15c35bc64c25f10094c424e025ea6b0a693))
+* Update dependency org.apache.httpcomponents.core5:httpcore5 to v5.2.5 ([#2002](https://github.com/googleapis/google-http-java-client/issues/2002)) ([8c61065](https://github.com/googleapis/google-http-java-client/commit/8c6106505a119380e555c64151542445f0e1a5f8))
+* Update github/codeql-action action to v3 ([#2000](https://github.com/googleapis/google-http-java-client/issues/2000)) ([7250f64](https://github.com/googleapis/google-http-java-client/commit/7250f649be7a989dc0a855d6f6ddff987ac0ebaa))
+* Update ossf/scorecard-action action to v2.4.0 ([#1992](https://github.com/googleapis/google-http-java-client/issues/1992)) ([08c5e5a](https://github.com/googleapis/google-http-java-client/commit/08c5e5a7f7a887aaccc03a40c784d34ecbc45984))
+* Update project.appengine.version to v2.0.27 ([#1938](https://github.com/googleapis/google-http-java-client/issues/1938)) ([3f27cc8](https://github.com/googleapis/google-http-java-client/commit/3f27cc800db62c2208160234a5afad641f1a3781))
+* Update project.appengine.version to v2.0.29 ([#1978](https://github.com/googleapis/google-http-java-client/issues/1978)) ([a3fd1e3](https://github.com/googleapis/google-http-java-client/commit/a3fd1e34925a531d47613145d5f3b5473cef2d82))
+
+## [1.44.2](https://github.com/googleapis/google-http-java-client/compare/v1.44.1...v1.44.2) (2024-05-16)
+
+
+### Bug Fixes
+
+* Base64 decoding to discard newline characters ([#1941](https://github.com/googleapis/google-http-java-client/issues/1941)) ([4e153db](https://github.com/googleapis/google-http-java-client/commit/4e153db9443832dbe6ca56b6fe10dcea26921b6f))
+
+
+### Dependencies
+
+* Update actions/upload-artifact action to v3.1.3 ([#1860](https://github.com/googleapis/google-http-java-client/issues/1860)) ([60deab2](https://github.com/googleapis/google-http-java-client/commit/60deab2fc93c70f4f37733a90a07b11e19b9f508))
+* Update dependency com.google.cloud:native-image-shared-config to v1.7.6 ([#1928](https://github.com/googleapis/google-http-java-client/issues/1928)) ([3dd6b79](https://github.com/googleapis/google-http-java-client/commit/3dd6b79368dd31efaf293009e8f424c905e9cc38))
+* Update dependency org.apache.felix:maven-bundle-plugin to v5.1.9 ([#1888](https://github.com/googleapis/google-http-java-client/issues/1888)) ([41c16b9](https://github.com/googleapis/google-http-java-client/commit/41c16b9334e218412826c1c07cdd303611bc7dbf))
+* Update project.appengine.version to v2.0.25 ([#1931](https://github.com/googleapis/google-http-java-client/issues/1931)) ([53eb6a1](https://github.com/googleapis/google-http-java-client/commit/53eb6a1f62d106190cc75af1e6b6eebec481f874))
+
 ## [1.44.1](https://github.com/googleapis/google-http-java-client/compare/v1.44.0...v1.44.1) (2024-01-26)
 
 
