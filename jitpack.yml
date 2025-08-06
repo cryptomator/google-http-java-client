@@ -1,4 +1,7 @@
 jdk:
   - openjdk17
+before_install:
+  - sdk install maven 3.8.8
+  - sdk use maven 3.8.8
 install:
   - mvn clean install -DskipTests --projects google-http-client,google-http-client-android --also-make
