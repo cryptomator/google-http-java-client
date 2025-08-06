@@ -1,4 +1,4 @@
 jdk:
-  - openjdk8
+  - openjdk17
 install:
   - mvn clean install -DskipTests --projects google-http-client,google-http-client-android --also-make
