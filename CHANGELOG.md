@@ -1,5 +1,49 @@
 # Changelog
 
+## [2.1.0](https://github.com/googleapis/google-http-java-client/compare/v2.0.3...v2.1.0) (2026-01-23)
+
+
+### Features
+
+* Update protobuf-java to 4.33.2 ([d48c443](https://github.com/googleapis/google-http-java-client/commit/d48c443cf9b872be4872ed6801c4edf70d5be7ac))
+
+## [2.0.3](https://github.com/googleapis/google-http-java-client/compare/v2.0.2...v2.0.3) (2025-12-19)
+
+
+### Bug Fixes
+
+* **apache5:** Set connection request timeout on setTimeout ([#2129](https://github.com/googleapis/google-http-java-client/issues/2129)) ([d11d794](https://github.com/googleapis/google-http-java-client/commit/d11d794d452a662bddd4402cd5d3895bcbe769f3))
+
+## [2.0.2](https://github.com/googleapis/google-http-java-client/compare/v2.0.1...v2.0.2) (2025-10-13)
+
+
+### Dependencies
+
+* Update dependency com.google.cloud:native-image-shared-config to v1.17.0 ([9efc208](https://github.com/googleapis/google-http-java-client/commit/9efc20820de4d48cf6b4375d26793094aef6696d))
+
+## [2.0.1](https://github.com/googleapis/google-http-java-client/compare/v2.0.0...v2.0.1) (2025-09-24)
+
+
+### Bug Fixes
+
+* UriTemplate expansion reserved ("+") and fragment("#") should not encode already percent encoded parts ([#2108](https://github.com/googleapis/google-http-java-client/issues/2108)) ([30766a8](https://github.com/googleapis/google-http-java-client/commit/30766a8a74df49c37e80ec41f1021d4ad69a8fda))
+
+## [2.0.0](https://github.com/googleapis/google-http-java-client/compare/v1.47.1...v2.0.0) (2025-08-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* update guava to 33.4.8-android ([#2112](https://github.com/googleapis/google-http-java-client/issues/2112))
+
+### Features
+
+* Next release from main branch is 1.48.0 ([#2110](https://github.com/googleapis/google-http-java-client/issues/2110)) ([33c6793](https://github.com/googleapis/google-http-java-client/commit/33c6793487c082e7ff7288983b5d64611b433a55))
+
+
+### Dependencies
+
+* Update guava to 33.4.8-android ([#2112](https://github.com/googleapis/google-http-java-client/issues/2112)) ([941038c](https://github.com/googleapis/google-http-java-client/commit/941038c81b99c4eaaab8935349d7b652362ab20c))
+
 ## [1.47.1](https://github.com/googleapis/google-http-java-client/compare/v1.47.0...v1.47.1) (2025-06-23)
 
 
